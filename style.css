@@ -1,0 +1,85 @@
+/* ===== General Styles ===== */
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+  margin: 0;
+}
+
+/* ===== Container ===== */
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+}
+
+/* ===== Button Base Style ===== */
+.btn {
+  display: block;
+  padding: 15px 20px;
+  margin: 15px 0;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+/* ===== Emergency Buttons ===== */
+.emergency-btn {
+  background-color: #d9534f;
+  font-size: 1.2em;
+  position: relative;
+}
+
+.emergency-btn:hover,
+.emergency-btn:active {
+  background-color: #c9302c;
+}
+
+/* ===== Button Description ===== */
+.description {
+  font-size: 0.9em;
+  margin-top: 5px;
+  color: white;
+  font-weight: normal;
+}
+
+/* ===== Non-Emergency Section ===== */
+#non-emergency {
+  margin-top: 50px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+/* ===== Warning Text ===== */
+.warning {
+  color: #d9534f;
+  font-weight: bold;
+}
+
+/* ===== Social Buttons ===== */
+.social-btn {
+  background-color: #0275d8;
+  font-size: 1em;
+}
+
+.social-btn:hover,
+.social-btn:active {
+  background-color: #025aa5;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 600px) {
+  .container {
+    padding: 8px;
+  }
+  .btn {
+    font-size: 1em;
+    padding: 12px 10px;
+  }
+  .emergency-btn {
+    font-size: 1em;
+  } }
